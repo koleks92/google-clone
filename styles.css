@@ -1,0 +1,173 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #202124;
+
+}
+
+
+#top {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+    width: auto;
+    
+}
+
+
+#google_small {
+    height: 25px;
+
+}
+
+.search_link {
+    text-decoration: none;
+    padding: 6px;
+    color: rgba(0,0,0,.87);
+}
+
+.search_link:hover {
+    text-decoration: underline;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+#title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+#separator {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#content {
+    margin: 40px 20px 0px 45px;
+}
+
+#title-content {
+    font-size: 16px;
+    color: #333;
+}
+
+.search-fields {
+    display: flex;
+    margin-top: 14px;
+
+}
+
+.search-field{
+    justify-content: center;
+    min-width: 60%;
+}
+
+.afield {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    min-width: 60%;
+}
+
+.afield:focus {
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.search-text{
+    justify-content: center;
+    align-items: center;
+    width: 12%;    
+}
+
+
+#abutton{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    min-width: 120px;
+    margin: auto 50% auto auto;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+}
+
+
+#sfielddiv {
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    width: auto;
+    min-width: 40%;
+    max-width: 400px;
+    
+    margin: auto auto 20px auto ;
+}
+
+#sfielddiv:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+#sfield{
+    border: 0px solid #dfe1e5;
+    width: 95%;
+    height: 90%;
+}
+
+#sfield:focus{
+    border: 0px;
+    outline: none !important;
+}
+
+
+input {
+    border-color: lightgray;
+}
+
+.sbuttons {
+    font-size: 14px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.sbuttons:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+
+
