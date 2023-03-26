@@ -78,6 +78,14 @@ body {
     margin-top: 150px;
 }
 
+#images_text {
+    position: absolute;
+    padding-left: 215px;
+    padding-top: 60px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
 #separator {
     border-bottom: 1px solid #ebebeb;
 }
